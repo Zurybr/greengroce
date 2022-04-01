@@ -774,3 +774,4 @@ C:\Users\Zurybr\Documents\tttes\greengroce\greengroce\obj\Release\net5.0\refint\
 C:\Users\Zurybr\Documents\tttes\greengroce\greengroce\obj\Release\net5.0\greengroce.pdb
 C:\Users\Zurybr\Documents\tttes\greengroce\greengroce\obj\Release\net5.0\greengroce.genruntimeconfig.cache
 C:\Users\Zurybr\Documents\tttes\greengroce\greengroce\obj\Release\net5.0\ref\greengroce.dll
+C:\Users\Zurybr\Documents\tttes\greengroce\greengroce\obj\Release\net5.0\Razor\Views\Fruta\Pagfive.cshtml.g.cs

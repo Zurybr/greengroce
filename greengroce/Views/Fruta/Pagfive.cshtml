@@ -1,0 +1,68 @@
+﻿@using greengroce.Models
+@model IEnumerable<greengroce.Models.Fruta>  
+<link rel="stylesheet" href="https://cdn.datatables.net/autofill/2.3.9/css/autoFill.dataTables.min.css">
+<table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>IdFruta</th>
+                <th>Nombre</th>
+                <th>Precio Kg</th>
+                <th>Precio 1/2</th>
+                <th>Precio Docena</th>
+            </tr>
+        </thead>
+        <tbody>
+        @if (Model != null)
+        {
+            foreach (var fruta in Model)
+            {
+            <tr>
+                <td>@fruta.IdFruta
+                </td>
+                <td>@fruta.Nombre
+                </td>
+                <td>@fruta.KgPrice
+                </td>
+                <td>@fruta.HkgPrice
+                </td>
+                <td>@fruta.DozenPrice
+                </td>
+            </tr>
+            }
+        }
+    </tbody>
+@*        <tfoot>
+            <tr>
+                <th>IdFruta</th>
+                <th>Nombre</th>
+                <th>Precio Kg</th>
+                <th>Precio 1/2</th>
+                <th>Precio Docena</th>
+            </tr>
+        </tfoot>*@
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.11.5/datatables.min.js"></script>
+
+<script>
+
+$(document).ready(function() {
+    $('#example').DataTable({
+        "pageLength": 5
+    });
+} );
+
+
+</script>
