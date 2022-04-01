@@ -6586,11 +6586,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zurybr\\Documents\\greengroce\\greengroce\\greengroce\\greengroce.csproj",
+      "projectUniqueName": "C:\\Users\\Zurybr\\Documents\\tttes\\greengroce\\greengroce\\greengroce.csproj",
       "projectName": "greengroce",
-      "projectPath": "C:\\Users\\Zurybr\\Documents\\greengroce\\greengroce\\greengroce\\greengroce.csproj",
+      "projectPath": "C:\\Users\\Zurybr\\Documents\\tttes\\greengroce\\greengroce\\greengroce.csproj",
       "packagesPath": "C:\\Users\\Zurybr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zurybr\\Documents\\greengroce\\greengroce\\greengroce\\obj\\",
+      "outputPath": "C:\\Users\\Zurybr\\Documents\\tttes\\greengroce\\greengroce\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Zurybr\\AppData\\Roaming\\NuGet\\NuGet.Config",
