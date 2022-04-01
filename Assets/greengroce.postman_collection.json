@@ -1,0 +1,289 @@
+{
+	"info": {
+		"_postman_id": "8a583b0a-3f45-45b7-81a0-e361fa4b97fb",
+		"name": "greengroce",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Fruta",
+			"item": [
+				{
+					"name": "GetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_host}}{{api_fruta}}/get/",
+							"host": [
+								"{{base_host}}{{api_fruta}}"
+							],
+							"path": [
+								"get",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetActivos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_host}}{{api_fruta}}/getactivos/",
+							"host": [
+								"{{base_host}}{{api_fruta}}"
+							],
+							"path": [
+								"getactivos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetbyId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_host}}{{api_fruta}}/getactivos/",
+							"host": [
+								"{{base_host}}{{api_fruta}}"
+							],
+							"path": [
+								"getactivos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insert",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"Nombre\" :\"Sandia\",\r\n        \"KgPrice\" :\"34.12\",\r\n       \"HkgPrice\" :\"23.1\",\r\n       \"DozenPrice\" :\"43.09\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_host}}{{api_fruta}}/Post/",
+							"host": [
+								"{{base_host}}{{api_fruta}}"
+							],
+							"path": [
+								"Post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idFruta\": 3,\r\n    \"claveFruta\": \"San003\",\r\n    \"nombre\": \"Sandia\",\r\n    \"kgPrice\": 34.12,\r\n    \"hkgPrice\": 23.1,\r\n    \"dozenPrice\": 43.09,\r\n    \"status\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_host}}{{api_fruta}}/Put/",
+							"host": [
+								"{{base_host}}{{api_fruta}}"
+							],
+							"path": [
+								"Put",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idFruta\": 3,\r\n    \"claveFruta\": \"San003\",\r\n    \"nombre\": \"Sandia\",\r\n    \"kgPrice\": 34.12,\r\n    \"hkgPrice\": 23.1,\r\n    \"dozenPrice\": 43.09,\r\n    \"status\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_host}}{{api_fruta}}/Put/",
+							"host": [
+								"{{base_host}}{{api_fruta}}"
+							],
+							"path": [
+								"Put",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Usuarios",
+			"item": [
+				{
+					"name": "GetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_host}}{{api_usuarios}}/get/",
+							"host": [
+								"{{base_host}}{{api_usuarios}}"
+							],
+							"path": [
+								"get",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetActivos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_host}}{{api_usuarios}}/getactivos/",
+							"host": [
+								"{{base_host}}{{api_usuarios}}"
+							],
+							"path": [
+								"getactivos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetbyId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_host}}{{api_usuarios}}/getactivos/",
+							"host": [
+								"{{base_host}}{{api_usuarios}}"
+							],
+							"path": [
+								"getactivos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insert",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ClaveUsuario\" :\"test\",\r\n    \"Password\" :\"test\",\r\n    \"Nombre\" :\"test\",\r\n    \"IsAdmin\" :false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_host}}{{api_usuarios}}/Post/",
+							"host": [
+								"{{base_host}}{{api_usuarios}}"
+							],
+							"path": [
+								"Post",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"IdUsuario\": 2,\r\n    \"Password\" :\"Mexico00\",\r\n    \"Nombre\" :\"test\",\r\n    \"IsAdmin\" :false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_host}}{{api_usuarios}}/Put/",
+							"host": [
+								"{{base_host}}{{api_usuarios}}"
+							],
+							"path": [
+								"Put",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idFruta\": 3,\r\n    \"claveFruta\": \"San003\",\r\n    \"nombre\": \"Sandia\",\r\n    \"kgPrice\": 34.12,\r\n    \"hkgPrice\": 23.1,\r\n    \"dozenPrice\": 43.09,\r\n    \"status\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_host}}{{api_usuarios}}/Put/",
+							"host": [
+								"{{base_host}}{{api_usuarios}}"
+							],
+							"path": [
+								"Put",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
